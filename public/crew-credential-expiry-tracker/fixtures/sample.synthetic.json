@@ -1,0 +1,11 @@
+{
+  "shootDate": "2026-10-01",
+  "warningDays": 30,
+  "credentials": [
+    {
+      "person": "A",
+      "type": "license",
+      "expires": "2026-12-01"
+    }
+  ]
+}

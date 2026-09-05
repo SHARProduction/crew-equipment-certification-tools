@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-01",
+  "required": [
+    "lift"
+  ],
+  "certificates": [
+    {
+      "equipment": "lift",
+      "issuer": "Authority",
+      "expires": "2027-01-01"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "repository": "crew-equipment-certification-tools",
+  "state": "LOCAL_READY",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "assets": [
+    {
+      "asset_id": "shar-pe400-w09-163",
+      "slug": "crew-credential-expiry-tracker",
+      "title": "Crew Credential Expiry Tracker",
+      "title_ru": "Трекер срока удостоверений съёмочной группы",
+      "family": "crew_certification",
+      "purpose": "Checks crew credentials against shoot dates and warning periods.",
+      "purpose_ru": "Сверяет удостоверения команды с датами съёмки и сроками предупреждения.",
+      "code_license": "MIT",
+      "taxonomy_and_synthetic_fixtures_license": "CC-BY-4.0",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "state": "PLANNED"
+    },
+    {
+      "asset_id": "shar-pe400-w09-164",
+      "slug": "equipment-certification-validator",
+      "title": "Equipment Certification Validator",
+      "title_ru": "Валидатор сертификации оборудования",
+      "family": "crew_certification",
+      "purpose": "Checks required equipment certificates, issuers and expiry dates.",
+      "purpose_ru": "Проверяет сертификаты оборудования, выдающие органы и сроки действия.",
+      "code_license": "MIT",
+      "taxonomy_and_synthetic_fixtures_license": "CC-BY-4.0",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "state": "PLANNED"
+    }
+  ]
+}

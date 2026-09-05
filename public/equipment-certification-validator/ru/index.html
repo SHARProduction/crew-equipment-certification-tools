@@ -1,0 +1,13 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Валидатор сертификации оборудования · SHAR Production</title><meta name="description" content="Проверяет сертификаты оборудования, выдающие органы и сроки действия."><meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="../styles.css"><script type="module" src="../app.mjs"></script></head><body data-slug="equipment-certification-validator"><nav><a class="brand" href="https://sharprod.com/"><b>SHAR</b> Production</a><a href="../en/">EN</a></nav><main><h1>Валидатор сертификации оборудования</h1><p class="lead">Проверяет сертификаты оборудования, выдающие органы и сроки действия.</p><p class="note">Обработка выполняется локально в браузере. Используйте неконфиденциальные плановые данные.</p><div class="grid"><section><textarea id="input" aria-label="JSON input">{
+  "date": "2026-10-01",
+  "required": [
+    "lift"
+  ],
+  "certificates": [
+    {
+      "equipment": "lift",
+      "issuer": "Authority",
+      "expires": "2027-01-01"
+    }
+  ]
+}</textarea><button id="run">Проверить</button></section><pre id="output" aria-live="polite"></pre></div><a class="cta" href="https://sharprod.com/brief/?utm_source=shar_public_tools&utm_medium=tool&utm_campaign=equipment-certification-validator">Обсудить production-бриф ↗</a></main></body></html>
